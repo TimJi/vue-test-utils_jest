@@ -4,6 +4,12 @@
 
 <script>
   export default {
-    props: ['message']
+    props: {
+      message: String,
+      author: {
+        type: String,
+        default: 'Paco'
+      }
+    }
   }
 </script>
